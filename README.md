@@ -94,10 +94,10 @@ Users are expected to customize it as needed.
 
 Usage
 Transplant a program
-./transplant.sh <program>
+```./transplant.sh <program>```
 
 Enter the environment
-alias rishenv="rish -c 'source /data/data/com.android.shell/usr/bin/rc.sh'"
+```alias rishenv="rish -c 'source /data/data/com.android.shell/usr/bin/rc.sh'"```
 
 Compatibility
 
@@ -108,32 +108,32 @@ Generally working
 
 These tools typically work after transplanting, sometimes with extra runtime files:
 
-htop
+```htop```
 
-fish
+```fish```
 
-nvim
+```nvim```
 
-curl
+```curl```
 
-wget
+```wget```
 
-strace
+```strace```
 
 
 Partially working
 
 These may run but exhibit limitations or missing functionality:
 
-bash
+```bash```
 
 Not working / known broken
 
 These typically fail due to SELinux restrictions or missing kernel features:
 
-tmux
+```tmux```
 
-screen
+```screen```
 
 
 
